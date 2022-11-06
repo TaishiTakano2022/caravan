@@ -235,6 +235,15 @@ footer{
 }
 
 
+/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
+@media screen and (max-width: 768px) {
+
+  .instagram .sidebar-contents {
+    display: block;
+
+  }
+}
+
 @media screen and (max-width: 425px) {
   header {
     width: 100%;
@@ -304,7 +313,3 @@ footer{
   }
 }
 
-
-@media screen and (max-width: 768px){
-  
-}
